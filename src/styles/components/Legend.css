@@ -1,0 +1,34 @@
+.legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .color-box {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Add specific color boxes for each token type */
+  .color-box.keyword { background-color: #0000ff; }
+  .color-box.identifier { background-color: #000000; }
+  .color-box.number { background-color: #098658; }
+  .color-box.string { background-color: #a31515; }
+  .color-box.operator { background-color: #800080; }
+  .color-box.preprocessor { background-color: #808000; }
+  .color-box.comment { background-color: #008000; }
+  .color-box.punctuation { background-color: #666666; }
+  .color-box.type { background-color: #2b91af; }

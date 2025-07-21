@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+    }
+  }
+  
+  .code-area, .analysis-area {
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 15px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 18px;
+  }

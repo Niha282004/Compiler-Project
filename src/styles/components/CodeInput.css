@@ -1,0 +1,57 @@
+/* CodeInput.css */
+.code-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.code-input-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code-input-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.sample-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sample-selector label {
+  font-weight: 500;
+  color: #555;
+}
+
+.sample-selector select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 0.9rem;
+}
+
+.code-editor {
+  width: 100%;
+  height: 350px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  resize: vertical;
+  tab-size: 4;
+}
+
+.code-editor:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}

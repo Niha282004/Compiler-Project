@@ -1,0 +1,95 @@
+/* SyntaxHighlighter.css */
+.syntax-container {
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.syntax-container.empty {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.code-display {
+  display: flex;
+  background-color: #f8f8f8;
+  overflow: auto;
+  max-height: 500px;
+}
+
+.line-numbers {
+  background-color: #eaeaea;
+  padding: 10px 5px;
+  text-align: right;
+  user-select: none;
+  border-right: 1px solid #ddd;
+}
+
+.line-number {
+  color: #999;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 0 10px;
+}
+
+.code-content {
+  padding: 10px;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.code-line {
+  white-space: pre;
+}
+
+/* Token type colors */
+.keyword {
+  color: #9c27b0;
+  font-weight: bold;
+}
+
+.type {
+  color: #03a9f4;
+  font-weight: bold;
+}
+
+.identifier {
+  color: #4caf50;
+}
+
+.number {
+  color: #ff9800;
+}
+
+.string {
+  color: #e91e63;
+}
+
+.operator {
+  color: #00bcd4;
+  font-weight: bold;
+}
+
+.punctuation {
+  color: #9e9e9e;
+}
+
+.comment {
+  color: #607d8b;
+  font-style: italic;
+}
+
+.error {
+  color: #f44336;
+  text-decoration: wavy underline;
+}
+
+.plain {
+  color: #333;
+}

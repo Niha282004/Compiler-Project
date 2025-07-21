@@ -1,0 +1,153 @@
+.symbol-table-container {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background-color: #f9fafb;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.symbol-table-container h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #374151;
+}
+
+.symbol-table-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.scope-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.scope-select {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  background-color: white;
+}
+
+.show-params {
+  display: flex;
+  align-items: center;
+}
+
+.show-params input {
+  margin-right: 6px;
+}
+
+.symbol-table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.symbol-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.symbol-table th {
+  background-color: #f3f4f6;
+  padding: 10px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #4b5563;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.symbol-table td {
+  padding: 8px 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.symbol-table .even-row {
+  background-color: #ffffff;
+}
+
+.symbol-table .odd-row {
+  background-color: #f9fafb;
+}
+
+.symbol-table tr:hover {
+  background-color: #f3f4f6;
+}
+
+.identifier {
+  font-family: monospace;
+  font-weight: 500;
+}
+
+.type {
+  color: #4338ca;
+}
+
+.scope {
+  color: #6b7280;
+}
+
+.line {
+  text-align: center;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-badge.initialized {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-badge.declared {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.param-list {
+  margin: 6px 0;
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.param-type {
+  color: #4338ca;
+}
+
+.param-name {
+  font-family: monospace;
+}
+
+.no-data-message {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.symbol-table-stats {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+details summary {
+  cursor: pointer;
+  color: #4b5563;
+}
+
+details summary:hover {
+  color: #1f2937;
+}
